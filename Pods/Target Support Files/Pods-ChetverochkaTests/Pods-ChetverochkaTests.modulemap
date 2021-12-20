@@ -1,0 +1,6 @@
+framework module Pods_ChetverochkaTests {
+  umbrella header "Pods-ChetverochkaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

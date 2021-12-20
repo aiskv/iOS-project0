@@ -3,20 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49846BA69A9A66628F91BFB3 /* Pods_ChetverochkaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8B77199BA3ED0440E705A1 /* Pods_ChetverochkaTests.framework */; };
+		B701345B1267CDD1B55E337E /* Pods_Chetverochka_ChetverochkaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150BE6E486756B7ACF9472C8 /* Pods_Chetverochka_ChetverochkaUITests.framework */; };
+		E085CFB4276FFFA200E81699 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085CFB3276FFFA100E81699 /* Category.swift */; };
+		E085CFC2277001DD00E81699 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085CFC1277001DD00E81699 /* Constants.swift */; };
+		E085CFCA2770447B00E81699 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085CFC92770447B00E81699 /* ItemsTableViewController.swift */; };
+		E085CFCF2770477400E81699 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E085CFCE2770477400E81699 /* Item.swift */; };
 		E0B9FA772754671300374579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9FA762754671300374579 /* AppDelegate.swift */; };
 		E0B9FA792754671300374579 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9FA782754671300374579 /* SceneDelegate.swift */; };
-		E0B9FA7B2754671300374579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9FA7A2754671300374579 /* ViewController.swift */; };
 		E0B9FA7E2754671300374579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B9FA7C2754671300374579 /* Main.storyboard */; };
 		E0B9FA802754674700374579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B9FA7F2754674700374579 /* Assets.xcassets */; };
 		E0B9FA832754674700374579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B9FA812754674700374579 /* LaunchScreen.storyboard */; };
-		E0B9FA8E2754674900374579 /* ChetverochkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9FA8D2754674900374579 /* ChetverochkaTests.swift */; };
-		E0B9FA992754674900374579 /* ChetverochkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9FA982754674900374579 /* ChetverochkaUITests.swift */; };
-		E0B9FAAB2766E22300374579 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9FAA92766E22300374579 /* MyCollectionViewCell.swift */; };
-		E0B9FAAC2766E22300374579 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0B9FAAA2766E22300374579 /* MyCollectionViewCell.xib */; };
+		E0E10D84276FD5EC00D1F46C /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10D83276FD5EC00D1F46C /* CategoryCollectionViewController.swift */; };
+		E0E10D89276FD71000D1F46C /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10D88276FD71000D1F46C /* CategoryCollectionViewCell.swift */; };
+		E0E10D91276FDD7D00D1F46C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0E10D90276FDD7D00D1F46C /* GoogleService-Info.plist */; };
+		E0E10DB5276FF06300D1F46C /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10DB4276FF06300D1F46C /* FirebaseCollectionReference.swift */; };
+		E6E60DB27F1D66BE1D901A2B /* Pods_Chetverochka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427C63279ABDA1A4C88868D5 /* Pods_Chetverochka.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +43,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150BE6E486756B7ACF9472C8 /* Pods_Chetverochka_ChetverochkaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chetverochka_ChetverochkaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6893C5EAE7FC45DAE44E1D /* Pods-Chetverochka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chetverochka.release.xcconfig"; path = "Target Support Files/Pods-Chetverochka/Pods-Chetverochka.release.xcconfig"; sourceTree = "<group>"; };
+		427C63279ABDA1A4C88868D5 /* Pods_Chetverochka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chetverochka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		733953846287889575D505EC /* Pods-Chetverochka-ChetverochkaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chetverochka-ChetverochkaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chetverochka-ChetverochkaUITests/Pods-Chetverochka-ChetverochkaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E35F5819A17F0F6FAD78A23 /* Pods-Chetverochka-ChetverochkaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chetverochka-ChetverochkaUITests.release.xcconfig"; path = "Target Support Files/Pods-Chetverochka-ChetverochkaUITests/Pods-Chetverochka-ChetverochkaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2577D7B1D19B23294D961A0 /* Pods-ChetverochkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChetverochkaTests.release.xcconfig"; path = "Target Support Files/Pods-ChetverochkaTests/Pods-ChetverochkaTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA97EFA79AA0FCE5507E495E /* Pods-ChetverochkaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChetverochkaTests.debug.xcconfig"; path = "Target Support Files/Pods-ChetverochkaTests/Pods-ChetverochkaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1F189B209E81E236C8070A /* Pods-Chetverochka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chetverochka.debug.xcconfig"; path = "Target Support Files/Pods-Chetverochka/Pods-Chetverochka.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8B77199BA3ED0440E705A1 /* Pods_ChetverochkaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChetverochkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E085CFB3276FFFA100E81699 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E085CFC1277001DD00E81699 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E085CFC92770447B00E81699 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		E085CFCE2770477400E81699 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E0B9FA732754671300374579 /* Chetverochka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chetverochka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B9FA762754671300374579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0B9FA782754671300374579 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0B9FA7A2754671300374579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0B9FA7D2754671300374579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0B9FA7F2754674700374579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B9FA822754674700374579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E0B9FA842754674700374579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0B9FA892754674900374579 /* ChetverochkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChetverochkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0B9FA8D2754674900374579 /* ChetverochkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChetverochkaTests.swift; sourceTree = "<group>"; };
-		E0B9FA8F2754674900374579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0B9FA942754674900374579 /* ChetverochkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChetverochkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0B9FA982754674900374579 /* ChetverochkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChetverochkaUITests.swift; sourceTree = "<group>"; };
-		E0B9FA9A2754674900374579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0B9FAA92766E22300374579 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
-		E0B9FAAA2766E22300374579 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		E0E10D83276FD5EC00D1F46C /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		E0E10D88276FD71000D1F46C /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0E10D90276FDD7D00D1F46C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../var/folders/6w/qvz685bn7nd29qf_154zgf6c0000gp/T/ru.keepcoder.Telegram/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E0E10D95276FDD9100D1F46C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E10DB4276FF06300D1F46C /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E60DB27F1D66BE1D901A2B /* Pods_Chetverochka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49846BA69A9A66628F91BFB3 /* Pods_ChetverochkaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,19 +92,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B701345B1267CDD1B55E337E /* Pods_Chetverochka_ChetverochkaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66C456A85DB1ECAE5C623074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC1F189B209E81E236C8070A /* Pods-Chetverochka.debug.xcconfig */,
+				3C6893C5EAE7FC45DAE44E1D /* Pods-Chetverochka.release.xcconfig */,
+				733953846287889575D505EC /* Pods-Chetverochka-ChetverochkaUITests.debug.xcconfig */,
+				9E35F5819A17F0F6FAD78A23 /* Pods-Chetverochka-ChetverochkaUITests.release.xcconfig */,
+				AA97EFA79AA0FCE5507E495E /* Pods-ChetverochkaTests.debug.xcconfig */,
+				A2577D7B1D19B23294D961A0 /* Pods-ChetverochkaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C04C30B785B08681020E0B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				427C63279ABDA1A4C88868D5 /* Pods_Chetverochka.framework */,
+				150BE6E486756B7ACF9472C8 /* Pods_Chetverochka_ChetverochkaUITests.framework */,
+				DE8B77199BA3ED0440E705A1 /* Pods_ChetverochkaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E085CFAF276FFEC800E81699 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				E0E10D88276FD71000D1F46C /* CategoryCollectionViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		E085CFB0276FFEFF00E81699 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E0E10DB4276FF06300D1F46C /* FirebaseCollectionReference.swift */,
+				E085CFC1277001DD00E81699 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E085CFB1276FFF0900E81699 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0E10D83276FD5EC00D1F46C /* CategoryCollectionViewController.swift */,
+				E085CFC92770447B00E81699 /* ItemsTableViewController.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		E085CFB2276FFF6800E81699 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E085CFB3276FFFA100E81699 /* Category.swift */,
+				E085CFCE2770477400E81699 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E0B9FA6A2754671300374579 = {
 			isa = PBXGroup;
 			children = (
 				E0B9FA752754671300374579 /* Chetverochka */,
-				E0B9FA8C2754674900374579 /* ChetverochkaTests */,
-				E0B9FA972754674900374579 /* ChetverochkaUITests */,
 				E0B9FA742754671300374579 /* Products */,
+				66C456A85DB1ECAE5C623074 /* Pods */,
+				C04C30B785B08681020E0B29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,35 +180,19 @@
 		E0B9FA752754671300374579 /* Chetverochka */ = {
 			isa = PBXGroup;
 			children = (
+				E085CFB2276FFF6800E81699 /* Model */,
+				E085CFB1276FFF0900E81699 /* Main Views */,
+				E085CFB0276FFEFF00E81699 /* Helpers */,
+				E085CFAF276FFEC800E81699 /* CustomCells */,
 				E0B9FA762754671300374579 /* AppDelegate.swift */,
 				E0B9FA782754671300374579 /* SceneDelegate.swift */,
-				E0B9FA7A2754671300374579 /* ViewController.swift */,
 				E0B9FA7C2754671300374579 /* Main.storyboard */,
 				E0B9FA7F2754674700374579 /* Assets.xcassets */,
 				E0B9FA812754674700374579 /* LaunchScreen.storyboard */,
-				E0B9FA842754674700374579 /* Info.plist */,
-				E0B9FAA92766E22300374579 /* MyCollectionViewCell.swift */,
-				E0B9FAAA2766E22300374579 /* MyCollectionViewCell.xib */,
+				E0E10D95276FDD9100D1F46C /* Info.plist */,
+				E0E10D90276FDD7D00D1F46C /* GoogleService-Info.plist */,
 			);
 			path = Chetverochka;
-			sourceTree = "<group>";
-		};
-		E0B9FA8C2754674900374579 /* ChetverochkaTests */ = {
-			isa = PBXGroup;
-			children = (
-				E0B9FA8D2754674900374579 /* ChetverochkaTests.swift */,
-				E0B9FA8F2754674900374579 /* Info.plist */,
-			);
-			path = ChetverochkaTests;
-			sourceTree = "<group>";
-		};
-		E0B9FA972754674900374579 /* ChetverochkaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E0B9FA982754674900374579 /* ChetverochkaUITests.swift */,
-				E0B9FA9A2754674900374579 /* Info.plist */,
-			);
-			path = ChetverochkaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0B9FA9D2754674900374579 /* Build configuration list for PBXNativeTarget "Chetverochka" */;
 			buildPhases = (
+				B97D6AD9F564014A908455BD /* [CP] Check Pods Manifest.lock */,
 				E0B9FA6F2754671300374579 /* Sources */,
 				E0B9FA702754671300374579 /* Frameworks */,
 				E0B9FA712754671300374579 /* Resources */,
+				06FFB014C3D701DC779ED717 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0B9FAA02754674900374579 /* Build configuration list for PBXNativeTarget "ChetverochkaTests" */;
 			buildPhases = (
+				A09B8D2D02E8291D92F115B5 /* [CP] Check Pods Manifest.lock */,
 				E0B9FA852754674900374579 /* Sources */,
 				E0B9FA862754674900374579 /* Frameworks */,
 				E0B9FA872754674900374579 /* Resources */,
@@ -176,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0B9FAA32754674900374579 /* Build configuration list for PBXNativeTarget "ChetverochkaUITests" */;
 			buildPhases = (
+				BA2C62068735866C09D354CB /* [CP] Check Pods Manifest.lock */,
 				E0B9FA902754674900374579 /* Sources */,
 				E0B9FA912754674900374579 /* Frameworks */,
 				E0B9FA922754674900374579 /* Resources */,
+				F2D24DDB95DB474AA328A40F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,8 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B9FA832754674700374579 /* LaunchScreen.storyboard in Resources */,
+				E0E10D91276FDD7D00D1F46C /* GoogleService-Info.plist in Resources */,
 				E0B9FA802754674700374579 /* Assets.xcassets in Resources */,
-				E0B9FAAC2766E22300374579 /* MyCollectionViewCell.xib in Resources */,
 				E0B9FA7E2754671300374579 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,15 +326,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06FFB014C3D701DC779ED717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chetverochka/Pods-Chetverochka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chetverochka/Pods-Chetverochka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chetverochka/Pods-Chetverochka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A09B8D2D02E8291D92F115B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChetverochkaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B97D6AD9F564014A908455BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chetverochka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2C62068735866C09D354CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chetverochka-ChetverochkaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D24DDB95DB474AA328A40F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chetverochka-ChetverochkaUITests/Pods-Chetverochka-ChetverochkaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chetverochka-ChetverochkaUITests/Pods-Chetverochka-ChetverochkaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chetverochka-ChetverochkaUITests/Pods-Chetverochka-ChetverochkaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0B9FA6F2754671300374579 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B9FA7B2754671300374579 /* ViewController.swift in Sources */,
+				E0E10D89276FD71000D1F46C /* CategoryCollectionViewCell.swift in Sources */,
+				E085CFCF2770477400E81699 /* Item.swift in Sources */,
 				E0B9FA772754671300374579 /* AppDelegate.swift in Sources */,
-				E0B9FAAB2766E22300374579 /* MyCollectionViewCell.swift in Sources */,
+				E085CFCA2770447B00E81699 /* ItemsTableViewController.swift in Sources */,
+				E0E10DB5276FF06300D1F46C /* FirebaseCollectionReference.swift in Sources */,
 				E0B9FA792754671300374579 /* SceneDelegate.swift in Sources */,
+				E085CFC2277001DD00E81699 /* Constants.swift in Sources */,
+				E0E10D84276FD5EC00D1F46C /* CategoryCollectionViewController.swift in Sources */,
+				E085CFB4276FFFA200E81699 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +450,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B9FA8E2754674900374579 /* ChetverochkaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +457,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B9FA992754674900374579 /* ChetverochkaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +613,7 @@
 		};
 		E0B9FA9E2754674900374579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1F189B209E81E236C8070A /* Pods-Chetverochka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +632,7 @@
 		};
 		E0B9FA9F2754674900374579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6893C5EAE7FC45DAE44E1D /* Pods-Chetverochka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +651,7 @@
 		};
 		E0B9FAA12754674900374579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA97EFA79AA0FCE5507E495E /* Pods-ChetverochkaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +673,7 @@
 		};
 		E0B9FAA22754674900374579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2577D7B1D19B23294D961A0 /* Pods-ChetverochkaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +695,7 @@
 		};
 		E0B9FAA42754674900374579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733953846287889575D505EC /* Pods-Chetverochka-ChetverochkaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +715,7 @@
 		};
 		E0B9FAA52754674900374579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E35F5819A17F0F6FAD78A23 /* Pods-Chetverochka-ChetverochkaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
